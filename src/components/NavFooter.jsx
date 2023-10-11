@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { BiSearchAlt2, BiMailSend } from 'react-icons/bi';
+import { BiSearchAlt2 } from 'react-icons/bi';
 import { BsFillCalendarWeekFill, BsYoutube, BsBusFront } from 'react-icons/bs';
 import { SiGooglemaps, SiWaze } from 'react-icons/si';
 import '../style/NavFooter.css';
@@ -52,9 +52,9 @@ export const NavFooter = () => {
 			>
 				<BsYoutube size={iconoDim} className="nav-footer_icon" />
 			</a>
-			<btn className="nav-footer_btn" onClick={calendarHandler}>
+			<button className="nav-footer_btn" onClick={calendarHandler}>
 				<BsFillCalendarWeekFill size={iconoDim} className="nav-footer_icon" />
-			</btn>
+			</button>
 			<div className="calendario_contenedor" ref={calendarioRef}>
 				<Calendar className="calendario" />
 			</div>

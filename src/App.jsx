@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import { DATOS_EXCEL } from './DATOS_EXCEL/DATOS_EXCEL.js';
+import { Login } from './components/Login';
 import { Header } from './components/Header';
 import { Seccion } from './components/Seccion';
 import { NavFooter } from './components/NavFooter';
@@ -36,6 +37,7 @@ function App() {
 				})}
 			</div>
 			<NavFooter />
+			<Login />
 		</div>
 	);
 }
