@@ -37,7 +37,9 @@ function App() {
 				})}
 			</div>
 			<NavFooter />
-			<Login />
+			{
+				//<Login />
+			}
 		</div>
 	);
 }
