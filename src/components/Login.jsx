@@ -1,24 +1,34 @@
 import { useState } from 'react';
-
+import { client } from '../supabase/client';
 export const Login = () => {
 	const [user, setUser] = useState('');
 	const [password, setPassword] = useState('');
 
-	const handlerSubmit = (evt) => {
+	const handleSubmit = async (evt) => {
 		evt.preventDefault();
-		alert(user + ' ' + password);
-		console.log(user, password);
+
+		try {
+			const testLog = await client.auth.signInWithPassword({
+				user,
+				password,
+			});
+			//alert(user + ' ' + password);
+			console.log(testLog);
+		} catch (error) {
+			console.log('kehhhh');
+			console.error(error);
+		}
 	};
 
 	return (
 		<div>
-			<form onSubmit={handlerSubmit}>
+			<form onSubmit={handleSubmit}>
 				<input
 					type="text"
 					name="usuario"
 					placeholder="Usuario"
 					onChange={(e) => {
-						console.log(e.target.value);
+						//console.log(e.target.value);
 						setUser(e.target.value);
 					}}
 				/>
@@ -27,7 +37,7 @@ export const Login = () => {
 					name="contraseña"
 					placeholder="Contraseña"
 					onChange={(e) => {
-						console.log(e);
+						//console.log(e);
 						setPassword(e.target.value);
 					}}
 				/>
