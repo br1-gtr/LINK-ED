@@ -346,7 +346,8 @@ export const DATOS_EXCEL = [
 		categoria: '11 - Servicios',
 	},
 	{
-		enlace: 'https://autogestion.personal.com.ar/login/',
+		enlace:
+			'https://idpsesion.telecom.com.ar/openam/XUI/?realm=/convergente&goto=https://idpsesion.telecom.com.ar:443/openam/oauth2/convergente/authorize?response_type%3Dcode%26client_id%3D53f82c04c807dd8743abfa0e2452ba46%26scope%3Dopenid%2520profile%26redirect_uri%3Dhttps://mipersonal.personal.com.ar/inicio%26code_challenge%3Dg8u_vKOlfR-1mInwCmDjNRYbUOtXFxjZ8LXQ2ovdU0Y%26code_challenge_method%3DS256#login/',
 		alias: 'Personal',
 		categoria: '11 - Servicios',
 	},
@@ -496,7 +497,7 @@ export const DATOS_EXCEL = [
 		categoria: '15 – Variado 3',
 	},
 	{
-		enlace: 'https://paysrv2.pagomiscuentas.com/pmctas/home.do?',
+		enlace: 'https://web.pagomiscuentas.com/login',
 		alias: 'pagomiscuentas',
 		categoria: '15 – Variado 3',
 	},

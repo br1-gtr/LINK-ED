@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { client } from '../supabase/client';
+import { supabase } from '../supabase/client';
 export const Login = () => {
 	const [user, setUser] = useState('');
 	const [password, setPassword] = useState('');
@@ -8,12 +8,16 @@ export const Login = () => {
 		evt.preventDefault();
 
 		try {
-			const testLog = await client.auth.signInWithPassword({
-				user,
-				password,
+			const testLog = await supabase.auth.signInWithPassword({
+				email: user,
+				password: password,
 			});
-			//alert(user + ' ' + password);
+			alert(user + ' ' + password);
 			console.log(testLog);
+
+			/*consulta tabla... []*/
+			let { data, error } = await supabase.from('DB_LINKED').select('*');
+			console.log(data);
 		} catch (error) {
 			console.log('kehhhh');
 			console.error(error);
