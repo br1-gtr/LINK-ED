@@ -52,14 +52,15 @@
 		color: var(--color03);
 		letter-spacing: 1px;
 	}
-	& div::after {
+	/*& div::after {
 		content: ':';
 		animation: puntosReloj 2s infinite;
 		position: absolute;
 		right: 46.2%;
-	}
+	}*/
 }
-@keyframes puntosReloj {
+
+/*@keyframes puntosReloj {
 	0% {
 		color: rgb(192, 192, 192);
 	}
@@ -69,7 +70,7 @@
 	100% {
 		color: rgb(192, 192, 192);
 	}
-}
+}*/
 .contraste_bg_reloj {
 	transition: 0.3s;
 	background-color: #91eb55;
