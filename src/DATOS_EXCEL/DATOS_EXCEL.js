@@ -1,17 +1,17 @@
 export const DATOS_EXCEL = [
 	{
 		enlace: 'https://mail.google.com/mail/u/0/#inbox',
-		alias: 'Gmail 01',
+		alias: 'Gmail',
 		categoria: '01 - eMail',
 	},
 	{
 		enlace: 'https://mail.google.com/mail/u/1/#inbox',
-		alias: 'Gmail 02',
+		alias: '-',
 		categoria: '01 - eMail',
 	},
 	{
 		enlace: 'https://mail.google.com/mail/u/2/#inbox',
-		alias: 'Gmail 03',
+		alias: '-',
 		categoria: '01 - eMail',
 	},
 	{
@@ -42,7 +42,7 @@ export const DATOS_EXCEL = [
 	{
 		enlace:
 			'https://www.microsoft.com/es-ar/microsoft-365/onedrive/online-cloud-storage',
-		alias: 'MS Onedrive',
+		alias: 'OneDrive',
 		categoria: '02 – Online Drive',
 	},
 	{
@@ -126,6 +126,11 @@ export const DATOS_EXCEL = [
 		categoria: '05 - Streaming',
 	},
 	{
+		enlace: 'https://www.gaia.com/',
+		alias: 'Gaia',
+		categoria: '05 - Streaming',
+	},
+	{
 		enlace: 'https://www.netflix.com/ar/',
 		alias: 'Netflix',
 		categoria: '05 - Streaming',
@@ -133,11 +138,6 @@ export const DATOS_EXCEL = [
 	{
 		enlace: 'https://pluto.tv/es/',
 		alias: 'Pluto TV',
-		categoria: '05 - Streaming',
-	},
-	{
-		enlace: 'https://www.starplus.com/es-ar',
-		alias: 'Star+',
 		categoria: '05 - Streaming',
 	},
 	{
@@ -231,7 +231,7 @@ export const DATOS_EXCEL = [
 	},
 	{
 		enlace: 'https://teams.microsoft.com',
-		alias: 'MS Teams',
+		alias: 'Teams',
 		categoria: '08 - Mensajería',
 	},
 	{
@@ -345,6 +345,11 @@ export const DATOS_EXCEL = [
 		categoria: '10 – Varios IA',
 	},
 	{
+		enlace: 'https://es.vidnoz.com/',
+		alias: 'Vidnoz (videos)',
+		categoria: '10 – Varios IA',
+	},
+	{
 		enlace: 'https://videobolt.net/es',
 		alias: 'VideoBolt (videos cortos)',
 		categoria: '10 – Varios IA',
@@ -397,7 +402,7 @@ export const DATOS_EXCEL = [
 	},
 	{
 		enlace: 'https://www.lanus.gob.ar/',
-		alias: 'Muni Lomas',
+		alias: 'Muni Lanus',
 		categoria: '11 - Servicios',
 	},
 	{
@@ -542,18 +547,30 @@ export const DATOS_EXCEL = [
 		categoria: '14 – Variado 2',
 	},
 	{
-		enlace: 'http://www.paginasblancas.com.ar/',
-		alias: 'Paginas Blancas',
-		categoria: '14 – Variado 2',
-	},
-	{
 		enlace: 'https://www.todoshowcase.com/',
 		alias: 'Showcase',
 		categoria: '14 – Variado 2',
 	},
 	{
+		enlace: 'http://www.paginasblancas.com.ar/',
+		alias: 'Paginas Blancas',
+		categoria: '14 – Variado 2',
+	},
+	{
 		enlace: 'https://velocidad.telecentro.net.ar/',
 		alias: 'Velocidad Telecentro',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace:
+			'https://docs.google.com/spreadsheets/d/1cfKkqbRcFEIuOQEfNu3MKSR3kM5raEdNP0wmJJv_LX8/edit#gid=0',
+		alias: 'Servicios Varios',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace:
+			'https://docs.google.com/spreadsheets/d/1UjGMueCcAwS9ix5nQShTAbG3hw8J7ayGxE6fP7uuwk0/edit#gid=0',
+		alias: 'Cosas de Moto',
 		categoria: '14 – Variado 2',
 	},
 	{
