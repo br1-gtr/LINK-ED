@@ -1,5 +1,15 @@
 export const DATOS_EXCEL = [
 	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '01 - eMail',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '01 - eMail',
+	},
+	{
 		enlace: 'https://mail.google.com/mail/u/0/#inbox',
 		alias: 'Gmail',
 		categoria: '01 - eMail',
@@ -23,6 +33,16 @@ export const DATOS_EXCEL = [
 		enlace: 'https://mail.yahoo.com/',
 		alias: 'Yahoo',
 		categoria: '01 - eMail',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '02 – Online Drive',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '02 – Online Drive',
 	},
 	{
 		enlace: 'https://www.dropbox.com',
@@ -51,6 +71,16 @@ export const DATOS_EXCEL = [
 		categoria: '02 – Online Drive',
 	},
 	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '03 - Redes Sociales',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '03 - Redes Sociales',
+	},
+	{
 		enlace: 'https://www.facebook.com/',
 		alias: 'Facebook',
 		categoria: '03 - Redes Sociales',
@@ -74,6 +104,11 @@ export const DATOS_EXCEL = [
 		enlace: 'https://business.facebook.com/creatorstudio/home',
 		alias: 'zBusiness FB',
 		categoria: '03 - Redes Sociales',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '04 – Audio y Video',
 	},
 	{
 		enlace: 'https://www.dailymotion.com/es',
@@ -141,6 +176,26 @@ export const DATOS_EXCEL = [
 		categoria: '05 - Streaming',
 	},
 	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '06 – Mapas y otros',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '06 – Mapas y otros',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '06 – Mapas y otros',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '06 – Mapas y otros',
+	},
+	{
 		enlace: 'http://comollego.ba.gob.ar/',
 		alias: 'Comollego CABA',
 		categoria: '06 – Mapas y otros',
@@ -174,6 +229,26 @@ export const DATOS_EXCEL = [
 		enlace: 'https://www.waze.com/es/live-map/',
 		alias: 'Waze',
 		categoria: '06 – Mapas y otros',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '07 - Horarios Tren',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '07 - Horarios Tren',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '07 - Horarios Tren',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '07 - Horarios Tren',
 	},
 	{
 		enlace: 'https://cosasdelroca.com.ar',
@@ -215,6 +290,21 @@ export const DATOS_EXCEL = [
 		categoria: '07 - Horarios Tren',
 	},
 	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '08 - Mensajería',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '08 - Mensajería',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '08 - Mensajería',
+	},
+	{
 		enlace: 'https://meet.jit.si/',
 		alias: 'Jitsi Meet',
 		categoria: '08 - Mensajería',
@@ -253,6 +343,16 @@ export const DATOS_EXCEL = [
 		enlace: 'https://us04web.zoom.us/meeting#/upcoming',
 		alias: 'Zoom',
 		categoria: '08 - Mensajería',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '09 - Buscadores',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '09 - Buscadores',
 	},
 	{
 		enlace: 'https://archive.org',
@@ -437,6 +537,46 @@ export const DATOS_EXCEL = [
 		categoria: '11 - Servicios',
 	},
 	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '12 – Trab y Edu',
+	},
+	{
 		enlace: 'https://www.bumeran.com.ar/',
 		alias: 'Bumeran',
 		categoria: '12 – Trab y Edu',
@@ -475,6 +615,36 @@ export const DATOS_EXCEL = [
 		enlace: 'https://www.zonajobs.com.ar/',
 		alias: 'Zonajobs',
 		categoria: '12 – Trab y Edu',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '13 – Variado 1',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '13 – Variado 1',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '13 – Variado 1',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '13 – Variado 1',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '13 – Variado 1',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '13 – Variado 1',
 	},
 	{
 		enlace: 'https://cineclasicodcc.com/',
@@ -527,6 +697,41 @@ export const DATOS_EXCEL = [
 		categoria: '13 – Variado 1',
 	},
 	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '14 – Variado 2',
+	},
+	{
 		enlace: 'https://www.cinemaadrogue.com/',
 		alias: 'Cinema Adrogue',
 		categoria: '14 – Variado 2',
@@ -572,6 +777,41 @@ export const DATOS_EXCEL = [
 			'https://docs.google.com/spreadsheets/d/1UjGMueCcAwS9ix5nQShTAbG3hw8J7ayGxE6fP7uuwk0/edit#gid=0',
 		alias: 'Cosas de Moto',
 		categoria: '14 – Variado 2',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
+	},
+	{
+		enlace: 'https://link-ed.vercel.app/',
+		alias: '-',
+		categoria: '15 – Videos Varios',
 	},
 	{
 		enlace: 'https://aprendemosjuntos.bbva.com/',
